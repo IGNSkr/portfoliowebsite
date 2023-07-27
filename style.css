@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+
+    line-height: 1.8em;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling the first section */
+
+.welcomesection{
+    background-image: url(Images/DeveloperCover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.selfintro{
+
+    color: white;
+    min-width: 900px;
+    padding-top: 150px;
+    padding: 300px;
+    font-size: 30px;
+
+}
+
+.lg_text{
+
+    font-size: 100px;
+    padding-top: 20px;
+
+}
+
+.selfintro h1, h2{
+
+    margin: 50px auto;
+    font-weight: 500;
+}
+
+/* Styling The Black Box Section */
+.blackbox{
+
+    min-height: 100px;
+    color: white;
+    background-color: rgb(30, 0, 87);
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    
+}
+
+
+
+/* Styling the Card Section */
+
+.works{
+
+    min-height: 600px;
+}
+
+.cardcontainer{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+
+    margin-top: 50px;
+    text-align: center;
+    min-height: 450px;
+    width: 350px;
+    font-size: 15px;
+    border: 2px solid rgb(129, 10, 177);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px lightgrey;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.card:hover{
+
+    min-height: 500px;
+    width: 400px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.card img{
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+
+/* Styling about me and contact me section */
+
+.candb
+{
+    min-height: 200px;
+}
+
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aboutme{
+
+    color: aliceblue;
+    background-color: purple ;
+    width: 50%;
+    height: 300px;
+    border: 2px solid purple;
+    padding: 20px
+}
+
+.contactme{
+
+    color: aliceblue;
+    background-color: rgb(2, 0, 128);
+    width: 50%;
+    height: 300px;
+    border: 2px solid rgb(2, 0, 128);
+    padding: 20px
+}
+
+/* Styling Footer Section */
+
+.footnote
+{
+    min-height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+}
+
+
